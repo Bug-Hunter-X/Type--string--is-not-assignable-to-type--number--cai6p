@@ -1,0 +1,1 @@
+This example demonstrates a common type error in TypeScript that occurs when combining arrays of different types using the concat method.  The error message is clear: Type 'string' is not assignable to type 'number'. This is because the function combine is defined to only accept and return number arrays, but we are passing in an array of strings (arr2).
